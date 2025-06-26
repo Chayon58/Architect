@@ -1,0 +1,86 @@
+
+.modal {
+  display: none; 
+  top: 0; 
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.modal.show {
+  display: flex;
+}
+
+
+.modal .form {
+  background: white;
+  padding: 30px 40px;
+  border-radius: 10px;
+  height: 1020px;
+  width: 920px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+
+.modal .form legend {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+
+.modal .form input[type="text"],
+.modal .form input[type="email"],
+.modal .form input[type="password"] {
+  width: 100%;
+  padding: 8px 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 3rem;
+  box-sizing: border-box;
+}
+
+.modal .form input[type="submit"] {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px 0;
+  background-color: #f74a06e8;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 2.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.modal .form input[type="submit"]:hover {
+  background-color: #9abaa1;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  height: 14px;
+  margin-top: 2px;
+  display: block;
+}
+
+label and input */
+.modal .form label {
+  font-weight: 800;
+}
+
+.inputTitle{
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
