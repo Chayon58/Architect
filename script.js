@@ -11,8 +11,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const errorName = document.getElementById("nameE");
     const errorEmail = document.getElementById("emailE");
+
     const errorPassword = document.getElementById("passwordE");
     const errorConfirm = document.getElementById("confirmE");
+    
     const errorCountry = document.getElementById("countryE");
 
     nameInput.addEventListener("input", () => {
