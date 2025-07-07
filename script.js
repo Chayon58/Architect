@@ -28,7 +28,8 @@ document.addEventListener("DOMContentLoaded", () => {
     emailInput.addEventListener("input", () => {
       if (!emailInput.value.includes("@") || !emailInput.value.includes(".")) {
         errorEmail.textContent = "Enter a valid email address.";
-      } else {
+      }
+       else {
         errorEmail.textContent = "";
       }
     });
