@@ -1,7 +1,6 @@
 document.getElementById("loginModal").classList.add("show");
 document.getElementById("loginModal").classList.remove("show");
 
-
 document.addEventListener("DOMContentLoaded", () => {
     const nameInput = document.getElementById("name");
     const emailInput = document.getElementById("email");
@@ -16,7 +15,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const errorConfirm = document.getElementById("confirmE");
     
     const errorCountry = document.getElementById("countryE");
-
     nameInput.addEventListener("input", () => {
       if (nameInput.value.trim().length < 3) {
         errorName.textContent = "Name must be at least 3 characters.";
