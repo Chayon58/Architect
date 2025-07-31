@@ -185,6 +185,7 @@
 </head>
 <body>
 
+  
   <!-- Top Navbar -->
   <nav class="navbar display-flex work-sans-font">
     <h3 class="brand text-primary">Architect</h3>
@@ -196,6 +197,7 @@
     </ul>
   </nav>
 
+  
   <!-- Main Layout -->
   <div class="main-container">
     <!-- Left Sidebar -->
