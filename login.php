@@ -12,7 +12,9 @@ $sql = "INSERT INTO login (name,email, country,password) VALUES ('$name','$email
 
 if (mysqli_query($conn, $sql)) {
     echo "New record created successfully";
-} else {
+}
+
+else {
     echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 }
 
